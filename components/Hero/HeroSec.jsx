@@ -52,7 +52,7 @@ const HeroSec = () => {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-900 justify-center flex gap-6 items-center flex-col">
+    <div className="bg-slate-50 dark:bg-slate-900 justify-center h-screen mx-auto flex gap-6 items-center flex-col">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Free Open-Source Link Shortener</h1>
         <p className="text-slate-500 text-sm p-4">

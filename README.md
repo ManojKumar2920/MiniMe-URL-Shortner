@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://socialify.git.ci/ManojKumar2920/MiniMe-URL-Shortner/image?description=1&forks=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light" alt="MiniMe-URL-Shortner" />
 
-## Getting Started
+# MiniMe URL Shortener
 
-First, run the development server:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+MiniMe is an open-source URL shortener application built using Next.js. It allows users to easily shorten long URLs and share the shortened versions.
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- Shorten long URLs
+- Redirect to the original URL using the shortened link
+- Track the number of times a shortened URL has been accessed
+- Easy to deploy and customize
+- Open source
+
+## Demo
+
+Check out the live demo of MiniMe [here](https://mini-me-url-shortner.vercel.app).
+
+## Installation
+
+To get a local copy up and running follow these simple steps:
+
+### Prerequisites
+
+Make sure you have the following software installed:
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Clone the Repository
+
+```sh
+git clone https://github.com/ManojKumar2920/MiniMe-URL-Shortner.git
+cd MiniMe-URL-Shortner
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run the Application
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+2. Enter the long URL you want to shorten.
+3. Click on the "Shorten" button.
+4. Copy the shortened URL and share it.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Manoj Kumar - [manojkumararumainathan@gmail.com](mailto:manojkumararumainathan@gmail.com) 
+
+Project Link: [https://github.com/ManojKumar2920/MiniMe-URL-Shortner](https://github.com/ManojKumar2920/MiniMe-URL-Shortner)
+

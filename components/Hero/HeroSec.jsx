@@ -52,8 +52,8 @@ const HeroSec = () => {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-900 h-screen flex gap-6 items-center flex-col">
-      <div className="text-center pt-28">
+    <div className="bg-slate-50 dark:bg-slate-900 h-screen justify-center flex gap-6 items-center flex-col">
+      <div className="text-center pt-14">
         <h1 className="text-4xl font-bold">Free Open-Source Link Shortener</h1>
         <p className="text-slate-500 text-sm p-4">
           This is a free tool to shorten URLs powered by{" "}

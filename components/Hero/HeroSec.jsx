@@ -53,7 +53,7 @@ const HeroSec = () => {
 
   return (
     <div className="bg-slate-50 dark:bg-slate-900 h-screen justify-center flex gap-6 items-center flex-col">
-      <div className="text-center pt-14">
+      <div className="text-center">
         <h1 className="text-4xl font-bold">Free Open-Source Link Shortener</h1>
         <p className="text-slate-500 text-sm p-4">
           This is a free tool to shorten URLs powered by{" "}
@@ -98,6 +98,11 @@ const HeroSec = () => {
             <Toaster richColors position="top-center" />
           </div>
         )}
+      </div>
+      <div className=" absolute bottom-3">
+        <div>
+          <p className=" text-sm font-medium">Made with <span className=" text-red-700">&#x2764;</span> by <Link href={'https://manojkumar.one'} className=" text-purple-600">Manoj Kumar</Link></p>
+        </div>
       </div>
     </div>
   );
